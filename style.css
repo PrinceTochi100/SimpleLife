@@ -134,6 +134,12 @@ button {
     border-radius: 15px;
 }
 
+img {
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 25px;
+}
+
 /* mobile style go here*/
 @media (max-width: 480px) {
     body {
