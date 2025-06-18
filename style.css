@@ -155,5 +155,9 @@ button {
         padding: 11px 27px 11px 27px;
         font-size: 12px;
     }
+    #dashboard {
+        width:80;
+        border-radius: 15px;
+    }
     
 }
