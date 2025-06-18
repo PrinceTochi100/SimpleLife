@@ -151,5 +151,9 @@ button {
         margin-left: 15px;
         margin-right: 15px;
     }
+    button {
+        padding: 11px 27px 11px 27px;
+        font-size: 12px;
+    }
     
 }
