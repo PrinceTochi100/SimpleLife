@@ -140,6 +140,7 @@ button {
 @media (max-width: 480px) {
     body {
         height:100vh;
+        display: flex;
         align-items: center;
     }
     section {
