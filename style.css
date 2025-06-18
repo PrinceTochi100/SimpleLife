@@ -146,6 +146,7 @@ button {
         width:100%;
         padding-top: 50px;
         display: flex;
+        flex-direction: column;
         justify-items: center;
         
     }
@@ -160,7 +161,7 @@ button {
         font-size: 12px;
     }
     #dashboard {
-        width:80%;
+        width:85%;
         border-radius: 15px;
     }
     
