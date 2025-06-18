@@ -164,5 +164,9 @@ button {
         width:90%;
         border-radius: 15px;
     }
+    p {
+    text-align: center;
+    padding: 10px;
+}
     
 }
