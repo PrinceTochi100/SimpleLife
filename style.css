@@ -166,15 +166,20 @@ button {
         width:95%;
         border-radius: 15px;
     }
+
     p {
         margin-top: -5px;
-         margin-bottom: 0px;
-    text-align: center;
-    padding: 15px;
-}
+        margin-bottom: 0px;
+        text-align: center;
+        padding: 15px;
+    }
 
-.mobile-hide-break {
-  display: none;
-}
+    .mobile-hide-break {
+        display: none;
+    }
+
+    .navlink {
+        display: none;
+    }
     
 }
