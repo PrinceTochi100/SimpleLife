@@ -134,6 +134,13 @@ button {
     border-radius: 15px;
 }
 
+.menu-icon img{
+    
+    width: 24px;
+    cursor: pointer;
+    display: none;
+}
+
 
 
 /* mobile style go here*/
@@ -142,6 +149,10 @@ button {
         height:100vh;
       
     }
+
+    .menu-icon img{
+    display: inline;
+}
     section {
         width:100%;
         padding-top: 70px;
