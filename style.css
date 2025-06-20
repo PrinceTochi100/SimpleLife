@@ -138,6 +138,8 @@ button {
     
     width: 24px;
     cursor: pointer;
+}
+.menu-icon {
     display: none;
 }
 
@@ -150,8 +152,8 @@ button {
       
     }
 
-    .menu-icon img{
-    display: inline;
+    .menu-icon {
+    display: block;
 }
     section {
         width:100%;
