@@ -18,7 +18,7 @@
             <img src="hamburger-menu-svgrepo-com.svg" >
         </div>
         
-        <nav class="navlink">
+        <nav class="navlink" id="navlink">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="service.html">Services</a></li>
@@ -45,5 +45,17 @@
 
         <img src="dashboard.jpeg" id="dashboard">
     </section>
+
+    
+<script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navlink = document.getElementById('navlink');
+
+    menuIcon.addEventListener('click', () => {
+        navlink.classlist.toggle('active');
+    });
+
+</script>
 </body>
+
 </html> 
