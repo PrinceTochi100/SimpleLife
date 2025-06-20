@@ -148,12 +148,24 @@ button {
 /* mobile style go here*/
 @media (max-width: 480px) {
     body {
-        height:100vh;
+        height:100%;
       
     }
 
+    .navbar {
+        width: 100%;
+        position: relative;
+        padding: 0px 0px;
+    }
+
+    .logo{
+        padding-left: 20px;
+    }
+
     .menu-icon {
-    display: block !important;
+    display: block;
+    width: 50px;
+    margin-right: 20px;
 }
     section {
         width:100%;
